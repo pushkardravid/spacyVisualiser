@@ -1,0 +1,57 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+<body>
+
+<script src="../static/main.js"></script>
+
+<nav class="navbar navbar-dark nav-custom">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><strong>NER Tagger Visualization</strong></a>
+        </div>
+    </div>
+</nav>
+<div class="container">
+
+    <div class="row spacer-top">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 bd-content">
+            <div class="form-group">
+                <label for="comment">Enter text here:</label>
+                <textarea class="form-control" rows="7" id="comment"></textarea>
+            </div>
+            <button class="btn btn-primary" onclick="analyse()">Analyse</button>
+            <br><br>
+        </div>
+        <div class="col-md-2 bd-content" style="padding-top:40px;">
+            <button class="btn btn-info" onclick="loadSample1()">Sample Text 1</button><br/><br/>
+            <button class="btn btn-info" onclick="loadSample2()">Sample Text 2</button><br/><br/>
+            <button class="btn btn-info" onclick="loadSample3()">Sample Text 3</button><br/><br/>
+            </ul>
+        </div>
+    </div>
+    <hr/>
+    <div class="row spacer-bottom">
+        <div class="col-md-2">
+            <div id="tags"></div>
+        </div>
+        <div class="col-md-10">
+             <p id="tagged_text" class="para-class"></p>
+        </div>
+    </div>
+</div>
+
+<footer class="text-center">
+    <p class="spacer-sm">Made with <strong>!</strong> <i class="fas fa-heart"></i> by <strong>Pushkar</strong>. Powered by <a target="_blank" style="color:8dff00 !important" href="https://www.spacy.io"><strong>Spacy</strong></a></p>
+</footer>
+
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"/>
+
+</body>
+</html>

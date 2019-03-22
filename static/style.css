@@ -1,0 +1,79 @@
+.mark-class{
+padding: 0.45em 0.6em;
+margin: 0 0.25em;
+line-height: 2.5;
+border-radius: 0.35em;
+box-decoration-break: clone;
+-webkit-box-decoration-break: clone
+}
+
+.mark-class-round{
+margin:20px !important;
+padding: 0.45em 0.6em;
+margin: 0 0.25em;
+line-height: 1;
+border-radius: 0.75em;
+box-decoration-break: clone;
+-webkit-box-decoration-break: clone
+}
+
+.span-class{
+font-size: 0.8em;
+font-weight: bold;
+line-height: 1;
+border-radius: 0.35em;
+text-transform: uppercase;
+vertical-align: middle;
+margin-left: 0.5rem
+}
+
+.para-class{
+line-height: 2.5;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.nav-custom{
+   background-color:#563d7c;
+}
+
+.spacer-top{
+    padding-top:60px;
+}
+
+.spacer-bottom{
+padding-bottom:50px;
+}
+
+.spacer-sm{
+padding-top:7px;
+}
+footer {
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+    background:#2196f3!important;
+    color:white;
+}
+
+.GPE{background:#feca74;}
+.PERSON{background:#aa9cfc;}
+.ORG{background:#7aecec;}
+.NORP{background:#c887fb;}
+.LAW{background:#ff8197;}
+.ORDINAL{background:#e4e7d2;}
+.CARDINAL{background:#e4e7d2;}
+.FAC{background:#ddd;}
+.LOC{background:#ff9561;}
+.LANGUAGE{background:#ff8197;}
+.DATE{background:#bfe1d9;}
+.TIME{background:#bfe1d9;}
+.PERCENT{background:#e4e7d2;}
+.MONEY{background:#e4e7d2;}
+.QUANTITY{background:#e4e7d2;}
+.PRODUCT{background:#17a2b8;}
+.WORK_OF_ART{background:#f0d0ff;}
+.EVENT{background:#ffeb80;}
