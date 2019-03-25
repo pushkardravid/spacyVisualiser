@@ -1,6 +1,6 @@
-import en_core_web_lg
+import en_core_web_sm
 
-nlp = en_core_web_lg.load()
+nlp = en_core_web_sm.load()
 
 def tag(text):
     doc = nlp(text)

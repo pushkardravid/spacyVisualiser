@@ -87,6 +87,13 @@ function processResponse(response) {
 }
 
 function analyse() {
+	var lib = document.getElementById('medacyChecker').checked;
+	if(lib){
+		var uri = '/nerMedical';
+	}
+	else{
+		var uri = '/ner';
+	}
 	text = document.getElementById('comment').value;
 	var data = JSON.stringify({
 		"text": text
@@ -103,7 +110,7 @@ function analyse() {
 		}
 	});
 
-	xhr.open("POST", "/ner");
+	xhr.open("POST", uri);
 	xhr.setRequestHeader("Content-Type", "application/json");
 
 	xhr.send(data);
