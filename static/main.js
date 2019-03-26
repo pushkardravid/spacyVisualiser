@@ -117,13 +117,13 @@ function analyse() {
 }
 
 function loadSample1() {
-	document.getElementById('comment').innerHTML = sample_1;
+	document.getElementById('comment').value = sample_1;
 }
 
 function loadSample2() {
-	document.getElementById('comment').innerHTML = sample_2;
+	document.getElementById('comment').value = sample_2;
 }
 
 function loadSample3() {
-	document.getElementById('comment').innerHTML = sample_3;
+	document.getElementById('comment').value = sample_3;
 }
