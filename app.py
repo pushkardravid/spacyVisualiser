@@ -28,4 +28,4 @@ def nerTaggerMedical():
     return jsonify({'tagged_entities':tagged_entities, 'tags':tags})
 
 if __name__ == '__main__':
-    app.run(port=5001, debug=True)
+    app.run(port=5000, debug=True)
